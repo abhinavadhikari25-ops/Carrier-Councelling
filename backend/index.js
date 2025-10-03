@@ -8,8 +8,7 @@ const careerRoute= require('./routes/carrer')
 const studentRoute= require('./routes/studentRoute')
 
 const corsOptions = {
-  origin: "https://code-decoder-vkw2.vercel.app", 
-  credentials: true,               
+  origin: "*",                
 };
 app.use(cors(corsOptions));
 
